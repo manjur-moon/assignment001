@@ -130,3 +130,81 @@
     padding: 80px 60px;
 
  }
+ .container{
+    margin: 0 auto;
+    text-align: left;
+    padding: 80px 160px;
+    max-width: 1280px;
+    
+ }
+ .section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: 0E0E0E;
+ }
+
+ .vision-of-future .blocks{
+    display: flex;
+    gap: 24px;
+    padding: 120px 97px 30px 30px;
+    justify-content: space-between;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    
+    
+ }
+ .blocks{
+    border-radius: 16px;
+    
+    padding: 32px;
+   
+ }
+ .blocks img{
+    width: 62px;
+    margin-bottom: 25px;
+ }
+ .blocks h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+ }
+ .blocks p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0E0E0E;
+ }
+ /*blocks styles*/
+ .blocks-digi{
+    background-color: #eaf2ff;
+ }
+ .blocks-energy{
+    background-color: #C6E4D6;
+ }
+ .blocks-modern{
+    background-color: #F7EBCF ;
+ }
+/*button style*/
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-blue{
+    background-color: #5490F5;
+}
+.btn-green{
+    background-color: #09A15C;
+}
+.btn-yellow{
+    background-color: #FFC239;
+}
+button:hover{
+    opacity: 0.5;
+}
+
+
