@@ -435,6 +435,52 @@ p{
    color: 14px 14px 14px 70px;
   }
 
+  /*quote styles*/
+  .quote-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 16px;
+   background-color: #FFFFFF;
+   margin: 32px auto;
+   max-width: 1280px;
+   background-image: url('../B11A1--assignment-1/assets/quote-bg.png');
+   background-repeat: no-repeat;
+  }
+
+  .container-quote{
+   display: flex;
+   max-width: 1280px;
+   gap: 20px;
+   padding: 20px;
+
+  }
+  .q-content{
+   display: flex;
+   flex-direction: column;
+  }
+
+  .q-text{
+   font-size: 16px;
+   font-weight: 400px;
+   
+  }
+  .name{
+   font-size: 20px;
+   font-weight: 600px;
+   color: #0E0E0E;
+
+
+  }
+
+  .title{
+   font-size: 16px;
+   font-weight: 400px;
+   color: 14px 14px 14px 60px;
+
+  }
+
+
 
 
 
